@@ -8,7 +8,7 @@ export default function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
+    setDarkMode((prevMode) => !prevMode);
   };
   return (
     <div className="container">
