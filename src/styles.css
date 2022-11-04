@@ -106,6 +106,7 @@ main {
   background-repeat: no-repeat;
   background-position-x: 158%;
   background-position-y: 75%;
+  min-height: 87.7vh;
 }
 
 main.dark {
